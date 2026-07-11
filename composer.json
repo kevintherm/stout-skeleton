@@ -1,5 +1,5 @@
 {
-    "name": "stout/scratch",
+    "name": "stout/skeleton",
     "description": "Stout Framework Scratch App",
     "type": "project",
     "require": {
