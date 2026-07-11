@@ -2,6 +2,13 @@
     "name": "stout/skeleton",
     "description": "Stout Framework Scratch App",
     "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kevin",
+            "email": "kevindrm0@gmail.com"
+        }
+    ],
     "require": {
         "php": "^8.3",
         "stout/stout": "*@dev"
