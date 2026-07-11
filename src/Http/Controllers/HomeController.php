@@ -20,7 +20,7 @@ final class HomeController
 
         return $response->withJson([
             'status'  => 'success',
-            'message' => 'Welcome to Scotch Framework!',
+            'message' => 'Welcome to Stout Framework!',
         ]);
     }
 }

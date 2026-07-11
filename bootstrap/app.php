@@ -5,7 +5,7 @@ declare(strict_types=1);
 use App\Commands\GreetCommand;
 // use App\Http\Middleware\AuthMiddleware;
 use App\Providers\AppServiceProvider;
-use Scotch\Application;
+use Stout\Application;
 
 $app = new Application(
     basePath: dirname(__DIR__),

@@ -19,7 +19,7 @@ test('home endpoint returns successful JSON payload', function () {
     
     expect($data)->toBe([
         'status' => 'success',
-        'message' => 'Welcome to Scotch Framework!',
+        'message' => 'Welcome to Stout Framework!',
     ]);
 });
 

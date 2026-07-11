@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace App\Tests;
 
-use Scotch\Application;
+use Stout\Application;
 
 uses()->beforeEach(function () {
     // Put test setup logic here
@@ -17,7 +17,7 @@ function bootApp(): Application
 {
     $app = require __DIR__ . '/../bootstrap/app.php';
     if (!$app instanceof Application) {
-        throw new \RuntimeException('Failed to bootstrap Scotch Application.');
+        throw new \RuntimeException('Failed to bootstrap Stout Application.');
     }
     return $app;
 }

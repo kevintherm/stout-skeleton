@@ -1,10 +1,10 @@
 {
-    "name": "scotch/scratch",
-    "description": "Scotch Framework Scratch App",
+    "name": "stout/scratch",
+    "description": "Stout Framework Scratch App",
     "type": "project",
     "require": {
         "php": "^8.3",
-        "scotch/scotch": "*@dev"
+        "stout/stout": "*@dev"
     },
     "repositories": [
         {

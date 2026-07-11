@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "de1e6cc9c76dc0133c8fa87d63daf566",
+    "content-hash": "72285556b8b8676ce3cc89fab60f07e0",
     "packages": [
         {
             "name": "composer/semver",
@@ -1043,78 +1043,6 @@
                 }
             ],
             "time": "2026-02-28T14:55:02+00:00"
-        },
-        {
-            "name": "scotch/scotch",
-            "version": "0.0.1",
-            "dist": {
-                "type": "path",
-                "url": "../core",
-                "reference": "399558ce96ad1af867a3e1c701484c9a409548d2"
-            },
-            "require": {
-                "php": "^8.3",
-                "php-di/php-di": "^7.0",
-                "slim/http": "^1.4",
-                "slim/psr7": "^1.7",
-                "slim/slim": "^4.14",
-                "spiral/roadrunner-cli": "^2.6",
-                "spiral/roadrunner-http": "^3.4",
-                "spiral/roadrunner-worker": "^3.5",
-                "vlucas/phpdotenv": "^5.6"
-            },
-            "require-dev": {
-                "pestphp/pest": "^3.0",
-                "phpstan/extension-installer": "^1.4",
-                "phpstan/phpstan": "^2.0",
-                "phpstan/phpstan-strict-rules": "^2.0"
-            },
-            "bin": [
-                "bin/scotch"
-            ],
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Scotch\\": "src/"
-                }
-            },
-            "autoload-dev": {
-                "psr-4": {
-                    "Scotch\\Tests\\": "tests/"
-                }
-            },
-            "scripts": {
-                "test": [
-                    "pest --colors=always"
-                ],
-                "test:coverage": [
-                    "pest --coverage --colors=always"
-                ],
-                "analyse": [
-                    "phpstan analyse --ansi --memory-limit=-1"
-                ]
-            },
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Kevin",
-                    "email": "kevindrm0@gmail.com"
-                }
-            ],
-            "description": "Lightweight opinionated PHP framework built on Slim with strict types, PHP-DI, and RoadRunner.",
-            "keywords": [
-                "framework",
-                "php-di",
-                "roadrunner",
-                "scotch",
-                "slim"
-            ],
-            "transport-options": {
-                "symlink": true,
-                "relative": true
-            }
         },
         {
             "name": "slim/http",
@@ -2213,6 +2141,78 @@
                 }
             ],
             "time": "2026-06-03T10:08:42+00:00"
+        },
+        {
+            "name": "stout/stout",
+            "version": "0.0.1",
+            "dist": {
+                "type": "path",
+                "url": "../core",
+                "reference": "c7652b6b4292d9ee90d3ac603e0b80b6df200972"
+            },
+            "require": {
+                "php": "^8.3",
+                "php-di/php-di": "^7.0",
+                "slim/http": "^1.4",
+                "slim/psr7": "^1.7",
+                "slim/slim": "^4.14",
+                "spiral/roadrunner-cli": "^2.6",
+                "spiral/roadrunner-http": "^3.4",
+                "spiral/roadrunner-worker": "^3.5",
+                "vlucas/phpdotenv": "^5.6"
+            },
+            "require-dev": {
+                "pestphp/pest": "^3.0",
+                "phpstan/extension-installer": "^1.4",
+                "phpstan/phpstan": "^2.0",
+                "phpstan/phpstan-strict-rules": "^2.0"
+            },
+            "bin": [
+                "bin/stout"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Stout\\": "src/"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "Stout\\Tests\\": "tests/"
+                }
+            },
+            "scripts": {
+                "test": [
+                    "pest --colors=always"
+                ],
+                "test:coverage": [
+                    "pest --coverage --colors=always"
+                ],
+                "analyse": [
+                    "phpstan analyse --ansi --memory-limit=-1"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kevin",
+                    "email": "kevindrm0@gmail.com"
+                }
+            ],
+            "description": "Lightweight opinionated PHP framework built on Slim with strict types, PHP-DI, and RoadRunner.",
+            "keywords": [
+                "framework",
+                "php-di",
+                "roadrunner",
+                "slim",
+                "stout"
+            ],
+            "transport-options": {
+                "symlink": true,
+                "relative": true
+            }
         },
         {
             "name": "symfony/console",
@@ -6812,7 +6812,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "scotch/scotch": 20
+        "stout/stout": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,

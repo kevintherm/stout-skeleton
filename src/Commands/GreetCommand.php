@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace App\Commands;
 
-use Scotch\Console\Command;
+use Stout\Console\Command;
 
 final class GreetCommand extends Command
 {

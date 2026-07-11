@@ -6,7 +6,7 @@ namespace App\Providers;
 
 use DI\ContainerBuilder;
 use Psr\Container\ContainerInterface;
-use Scotch\Support\ServiceProvider;
+use Stout\Support\ServiceProvider;
 
 final class AppServiceProvider implements ServiceProvider
 {

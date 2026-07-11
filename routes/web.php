@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 use App\Http\Controllers\HomeController;
 use Psr\Http\Message\ServerRequestInterface;
-use Scotch\Http\Router;
+use Stout\Http\Router;
 use Slim\Http\Response;
 
 return function (Router $router): void {
@@ -13,7 +13,7 @@ return function (Router $router): void {
 
     $router->get('/info', fn(ServerRequestInterface $_, Response $response) => $response->withJson([
         'php' => PHP_VERSION,
-        'framework' => 'Scotch',
+        'framework' => 'Stout',
     ]));
 
     $router->group('/fuck', function() use ($router) {
