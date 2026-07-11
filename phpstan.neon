@@ -1,0 +1,10 @@
+parameters:
+    level: 10
+    paths:
+        - src
+        - bootstrap
+        - config
+        - routes
+        - tests
+    treatPhpDocTypesAsCertain: true
+    reportUnmatchedIgnoredErrors: true
